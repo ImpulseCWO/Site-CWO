@@ -16,7 +16,6 @@ export default function Home() {
       <AboutUs />
       <Servicos />
       <Beneficios />
-      <Galeria />
       <CallToAction />
       <Footer />
     </div>

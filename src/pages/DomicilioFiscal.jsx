@@ -48,7 +48,7 @@ O domicílio fiscal é a utilização do endereço da Impulse como sede oficial 
               <li><span className="text-impulse-dark font-bold">PREMIUM: 99,90</span> <br />Pagamento mensal. <br />Inclui 1h de sala/mês. <br />Sem fidelidade.</li>
             </ul>
             <a
-              href="https://wa.me/5585998210894?text=Quero%20saber%20mais%20sobre%20e-CNPJ"
+              href="https://wa.me/5585991413326?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20endereco%20fiscal"
               target="_blank" rel="noopener noreferrer"
               className="mt-4 inline-block bg-impulse-dark hover:bg-impulse-blue hover:scale-105 hover:shadow-xl text-white font-semibold px-6 py-3 rounded-full"
             >

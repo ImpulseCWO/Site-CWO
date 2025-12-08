@@ -145,7 +145,7 @@ export default function ECPF() {
   <h3 className="text-md font-semibold text-impulse-dark mt-5">Mensalidade: consultar disponibilidade</h3>
   
   <a
-    href="https://wa.me/5585998210894?text=Quero%20saber%20mais%20sobre%20e-CPF"
+    href="https://wa.me/5585991413326?text=Olá%2C%20estou%20entrando%20em%20contato%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20salas%20privativas."
     target="_blank"
     rel="noopener noreferrer"
     className="mt-4 inline-block bg-impulse-dark hover:bg-impulse-blue hover:scale-105 hover:shadow-xl text-white font-semibold px-6 py-3 rounded-full"

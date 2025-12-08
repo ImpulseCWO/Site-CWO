@@ -2,8 +2,8 @@ import React from 'react';
 import { MessageCircle } from 'lucide-react';
 
 const FloatingWhatsApp = ({
-  phone = '5585999999999',
-  message = 'Olá! Vim do site e gostaria de saber mais sobre certificados digitais.'
+  phone = '5585991413326',
+  message = 'Olá! Vim do site e gostaria de saber mais.'
 }) => {
   const phoneDigits = String(phone).replace(/\D/g, '');
   const text = encodeURIComponent(message);

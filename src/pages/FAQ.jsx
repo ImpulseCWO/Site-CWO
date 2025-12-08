@@ -24,7 +24,7 @@ function FAQItem({ q, a }) {
 }
 
 export default function FAQ() {
-  const phone = '5585998210894';
+  const phone = '5585991413326';
   const waLink = (msg) =>
     `https://wa.me/${String(phone).replace(/\D/g, '')}?text=${encodeURIComponent(msg)}`;
 

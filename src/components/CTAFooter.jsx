@@ -1,8 +1,8 @@
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
 const CallToActionImpulse = () => {
-  const phone = '5585998210894';
-  const message = 'Olá! Vi o site da Impulse e gostaria de agendar uma visita.';
+  const phone = '5585991413326';
+  const message = 'Olá! Vi o site da Impulse e gostaria de saber mais.';
   const waLink = `https://wa.me/${String(phone).replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
 
   return (
@@ -26,13 +26,6 @@ const CallToActionImpulse = () => {
           >
             Agendar Visita
             <ArrowRightIcon className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-          </a>
-
-          <a
-            href="/contato"
-            className="border-2 border-white text-white hover:bg-white hover:text-impulse-dark font-semibold px-8 py-4 rounded-full transition-all duration-300"
-          >
-            Fale com Especialista
           </a>
         </div>
 

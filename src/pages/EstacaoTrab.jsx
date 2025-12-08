@@ -90,7 +90,7 @@ Elas são ideais para freelancers, autônomos ou pequenas equipes que buscam fle
             </ul>
             
             <a
-              href="https://wa.me/5585998210894?text=Quero%20saber%20mais%20sobre%20e-CNPJ"
+              href="https://wa.me/5585991413326?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20esta%C3%A7%C3%B5es%20de%20trabalho"
               target="_blank" rel="noopener noreferrer"
               className="mt-4 inline-block bg-impulse-dark hover:bg-impulse-blue hover:scale-105 hover:shadow-xl text-white font-semibold px-6 py-3 rounded-full"
             >

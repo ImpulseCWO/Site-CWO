@@ -1,8 +1,8 @@
 import Espaco from '../assets/images/recepcao.png';
 
 const Hero = () => {
-  const phone = '5585998210894';
-  const message = 'Olá! Vim do site e gostaria de solicitar meu certificado digital.';
+  const phone = '5585991413326';
+  const message = 'Olá! Vim do site da Impulse e gostaria de saber mais.';
   const waLink = `https://wa.me/${String(phone).replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
 
   return (

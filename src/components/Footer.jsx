@@ -1,17 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
-  const phone = '5585998210894';
+  const phone = '5585991413326';
   const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(
     'Olá! Gostaria de mais informações sobre os espaços da Impulse.'
   )}`;
 
   const socialLinks = [
-    { name: 'Facebook', href: 'https://www.facebook.com/impulsecoworking', icon: Facebook },
-    { name: 'Instagram', href: 'https://www.instagram.com/impulsecoworking', icon: Instagram },
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/company/impulsecoworking', icon: Linkedin },
+    { name: 'Instagram', href: 'https://www.instagram.com/impulsecoworkeoffice', icon: Instagram },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/impulse-coworkoffice-95b766382/', icon: Linkedin },
   ];
 
   const quickLinks = [
@@ -88,8 +87,8 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-semibold mb-6">Contato</h4>
             <div className="space-y-3 text-gray-300">
-              <p>📧 <a href="mailto:impulsecoworking@gmail.com" className="hover:text-impulse-light">impulsecoworking@gmail.com</a></p>
-              <p>📱 <a href="tel:+5585998210894" className="hover:text-impulse-light">(85) 99821-0894</a></p>
+              <p>📧 <a href="mailto:impulsecoworking@gmail.com" className="hover:text-impulse-light">atendimento@impulsecwo.com.br</a></p>
+              <p>📱 <a href="tel:+5585991413326" className="hover:text-impulse-light">(85) 99141-3326</a></p>
               <p>📍 Fortaleza, CE</p>
               <p>⏰ Seg-Sex: 8h-18h</p>
             </div>
