@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import Auditorio1 from '../assets/images/Platinum.png';
-import Auditorio2 from '../assets/images/Golden.png';
-import Auditorio3 from '../assets/images/Premium.png';
+import Auditorio1 from '../assets/images/audi.png';
+import Auditorio2 from '../assets/images/AUDITORIO .jpg';
+import Auditorio3 from '../assets/images/AUDITORIO 1 .jpg';
 
 export default function AuditoriosImpulse() {
   const auditorios = [
