@@ -136,17 +136,17 @@ export default function AuditoriosImpulse() {
                 <tr className="odd:bg-white even:bg-gray-100">
                   <td className="px-4 py-2 font-semibold">Auditório 1</td>
                   <td className="px-4 py-2">Até 40 pessoas</td>
-                  <td className="px-4 py-2">R$ 650,00</td>
+                  <td className="px-4 py-2">R$ 690,00</td>
                 </tr>
                 <tr className="odd:bg-white even:bg-gray-100">
                   <td className="px-4 py-2 font-semibold">Auditório 2</td>
                   <td className="px-4 py-2">Até 50 pessoas</td>
-                  <td className="px-4 py-2">R$ 600,00</td>
+                  <td className="px-4 py-2">R$ 640,00</td>
                 </tr>
                 <tr className="odd:bg-white even:bg-gray-100">
                   <td className="px-4 py-2 font-semibold">Auditório 3</td>
                   <td className="px-4 py-2">Até 50 pessoas</td>
-                  <td className="px-4 py-2">R$ 650,00</td>
+                  <td className="px-4 py-2">R$ 690,00</td>
                 </tr>
               </tbody>
             </table>
