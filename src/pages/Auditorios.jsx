@@ -8,40 +8,43 @@ export default function AuditoriosImpulse() {
     {
       image: Auditorio1,
       title: 'Auditório 1',
-      subtitle: 'Versátil para treinamentos e palestras',
+      subtitle: 'Estrutura completa para treinamentos e palestras',
       description:
-        'Espaço ideal para empresas que precisam de um ambiente completo para treinamentos, reuniões ampliadas e apresentações com estrutura profissional.',
+        'Auditório ideal para treinamentos, palestras e encontros corporativos que exigem estrutura profissional, conforto e boa experiência para os participantes.',
       features: [
         'Capacidade para até 40 pessoas',
-        'Layout flexível (escolar, auditório, em U)',
-        'Sistema de projeção / TV e lousa de apoio',
-        'Acesso ao espaço externo com caramanchão para montagem de mesa de alimentação',
+        'Projetor e microfone',
+        'Gelágua disponível no espaço',
+        'Ambiente climatizado',
+        'Internet de alta velocidade',
       ],
     },
     {
       image: Auditorio2,
       title: 'Auditório 2',
-      subtitle: 'Perfeito para turmas maiores e eventos corporativos',
+      subtitle: 'Ideal para eventos corporativos e turmas maiores',
       description:
-        'Auditório amplo, ideal para workshops, imersões, encontros corporativos e eventos com maior número de participantes.',
+        'Espaço amplo e confortável, perfeito para workshops, reuniões ampliadas e eventos corporativos com maior número de participantes.',
       features: [
         'Capacidade para até 50 pessoas',
-        'Ambiente climatizado e confortável',
-        'Infraestrutura para som e apresentações',
-        'Acesso ao espaço externo com caramanchão para coffee break e alimentação',
+        'TV para apresentações',
+        'Ambiente climatizado',
+        'Internet de alta velocidade',
+        'Excelente visibilidade para todos os participantes',
       ],
     },
     {
       image: Auditorio3,
       title: 'Auditório 3',
-      subtitle: 'Ambiente dinâmico para cursos e formações',
+      subtitle: 'Versátil e completo para cursos e formações',
       description:
-        'Perfeito para cursos, aulas, seminários e treinamentos recorrentes, garantindo conforto e boa visibilidade para todos.',
+        'Perfeito para cursos, formações, seminários e treinamentos recorrentes, oferecendo recursos multimídia completos e conforto.',
       features: [
         'Capacidade para até 50 pessoas',
-        'Possibilidade de diferentes configurações de layout',
-        'Suporte para recursos multimídia',
-        'Acesso ao espaço externo com caramanchão para montagem de mesa de alimentação',
+        'Projetor e microfone',
+        'Gelágua disponível no espaço',
+        'Ambiente climatizado',
+        'Internet de alta velocidade',
       ],
     },
   ];
@@ -53,9 +56,8 @@ export default function AuditoriosImpulse() {
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold">Auditórios Impulse</h1>
           <p className="text-lg text-white/90 mt-4 max-w-3xl">
-            Três auditórios moduláveis, com estrutura completa para treinamentos, palestras, workshops e eventos
-            corporativos. Você pode locar individualmente ou utilizar os três juntos, formando um grande auditório
-            integrado.
+            Três auditórios climatizados, com internet e estrutura profissional para treinamentos, palestras,
+            workshops e eventos corporativos. Locação individual ou combinada, conforme a necessidade do seu evento.
           </p>
           <div className="mt-6">
             <Link to="/" className="underline underline-offset-4">
@@ -68,7 +70,7 @@ export default function AuditoriosImpulse() {
       {/* Conteúdo principal */}
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
-          <div className="md:col-span-2 space-y-6">
+          <div className="md:col-span-2 space-y-8">
             <h2 className="text-2xl font-semibold text-impulse-dark">Conheça nossos auditórios</h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
@@ -100,88 +102,74 @@ export default function AuditoriosImpulse() {
               ))}
             </div>
 
-
-            <h2 className="text-2xl font-semibold text-impulse-dark">Benefícios dos nossos auditórios</h2>
-            <p className="text-gray-700">
-              <li> Estrutura profissional para eventos corporativos e treinamentos </li>
-              <li> Internet de alta velocidade para transmissões e apresentações </li>
-              <li> Café e água inclusos para os participantes </li>
-              <li> Limpeza recorrente e ambiente sempre organizado </li>
-              <li> Recepção preparada para receber, orientar e apoiar seus convidados </li>
-              <li> Acesso aos espaços externos com caramanchão para montagem de mesa de alimentação/coffee break </li>
-            </p>
+            <h2 className="text-2xl font-semibold text-impulse-dark">Benefícios dos auditórios</h2>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Estrutura profissional para eventos corporativos e treinamentos</li>
+              <li>Internet estável e de alta velocidade</li>
+              <li>Ambientes climatizados e confortáveis</li>
+              <li>Limpeza recorrente e organização do espaço</li>
+              <li>Recepção preparada para apoiar seus convidados</li>
+            </ul>
 
             <h2 className="text-2xl font-semibold text-impulse-dark">Como funciona a locação</h2>
             <ul className="list-disc pl-6 text-gray-700 space-y-2">
-              <li>
-                Diária de evento: das <strong>8h às 18h</strong>, com tempo para organização, realização do evento e
-                encerramento.
-              </li>
-              <li>
-                Locação individual: escolha entre Auditório 1, 2 ou 3 de acordo com a capacidade e o formato do seu
-                evento.
-              </li>
-              <li>
-                Auditório completo: possibilidade de utilizar os <strong>3 auditórios integrados</strong>, formando um
-                grande salão para eventos de maior porte.
-              </li>
-              <li>
-                Montagem flexível: formatos em auditório, escolar, em U e outros, conforme a necessidade.
-              </li>
+              <li>Turno de 4 horas ou diária completa das 8h às 18h</li>
+              <li>Escolha o auditório conforme a capacidade e estrutura desejada</li>
+              <li>Possibilidade de locação de mais de um auditório para eventos maiores</li>
+              <li>Hora extra disponível mediante disponibilidade</li>
             </ul>
           </div>
 
-          {/* Aside – Valores & planos */}
+          {/* Aside – Valores */}
           <aside className="bg-gray-50 rounded-2xl p-6 h-fit shadow">
-            <h3 className="text-lg font-semibold text-impulse-dark mb-4">Valores & Planos</h3>
-            <h3 className="text-md font-semibold text-impulse-dark mb-2">Diária (8h às 18h)</h3>
+            <h3 className="text-lg font-semibold text-impulse-dark mb-4">Valores de Locação</h3>
 
-            <table className="w-full text-left border-collapse">
+            <table className="w-full text-left border-collapse mb-4">
               <thead>
                 <tr className="bg-impulse-dark text-white">
                   <th className="px-4 py-2 rounded-tl-2xl">Auditório</th>
                   <th className="px-4 py-2">Capacidade</th>
-                  <th className="px-4 py-2 rounded-tr-2xl">Valor diária</th>
+                  <th className="px-4 py-2 rounded-tr-2xl">Turno (4h)</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="odd:bg-white even:bg-gray-100">
                   <td className="px-4 py-2 font-semibold">Auditório 1</td>
                   <td className="px-4 py-2">Até 40 pessoas</td>
-                  <td className="px-4 py-2">R$ 550,00</td>
+                  <td className="px-4 py-2">R$ 650,00</td>
                 </tr>
                 <tr className="odd:bg-white even:bg-gray-100">
                   <td className="px-4 py-2 font-semibold">Auditório 2</td>
                   <td className="px-4 py-2">Até 50 pessoas</td>
-                  <td className="px-4 py-2">R$ 550,00</td>
+                  <td className="px-4 py-2">R$ 600,00</td>
                 </tr>
                 <tr className="odd:bg-white even:bg-gray-100">
                   <td className="px-4 py-2 font-semibold">Auditório 3</td>
                   <td className="px-4 py-2">Até 50 pessoas</td>
-                  <td className="px-4 py-2">R$ 550,00</td>
+                  <td className="px-4 py-2">R$ 650,00</td>
                 </tr>
               </tbody>
             </table>
 
-            <div className="mt-5 p-4 bg-white rounded-xl border border-gray-200">
-              <h4 className="text-md font-semibold text-impulse-dark mb-1">
-                Auditório Completo (1 + 2 + 3)
-              </h4>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                Utilização dos três auditórios integrados, formando um grande espaço para eventos de maior porte. <br />
-                <strong>Valor diária (8h às 18h): R$ 1.200,00</strong>
+            <div className="p-4 bg-white rounded-xl border border-gray-200 mb-4">
+              <p className="text-sm text-gray-700">
+                <strong>Diária (10h):</strong> a partir de <strong>R$ 1.000,00</strong><br />
+                <strong>Hora extra:</strong> a partir de <strong>R$ 110,00</strong>
               </p>
             </div>
 
             <a
-              href="https://wa.me/5585991413326?text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20audit%C3%B3rios%20da%20Impulse."
+              href="https://wa.me/5585991413326?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações%20sobre%20a%20locação%20dos%20auditórios%20da%20Impulse."
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-block bg-impulse-dark hover:bg-impulse-blue hover:scale-105 hover:shadow-xl text-white font-semibold px-6 py-3 rounded-full"
+              className="inline-block w-full text-center bg-impulse-dark hover:bg-impulse-blue hover:scale-105 hover:shadow-xl text-white font-semibold px-6 py-3 rounded-full"
             >
               Falar no WhatsApp
             </a>
-            <p className="mt-3 text-xs font-light">Nenhuma taxa extra surpresa.</p>
+
+            <p className="mt-3 text-xs font-light text-center">
+              Valores sujeitos à disponibilidade.
+            </p>
           </aside>
         </div>
       </section>
