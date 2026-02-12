@@ -14,9 +14,7 @@ import {
   MapPin,
   Receipt,
   Users,
-  CalendarClock,
   X,
-  HelpCircle,
 } from "lucide-react";
 
 export default function ECNPJ() {
@@ -120,7 +118,7 @@ export default function ECNPJ() {
       },
       {
         q: "A 1h de sala do Premium acumula?",
-        a: "Não. ¹Acesso mediante agendamento prévio e não cumulativo.",
+        a: "Não. Acesso mediante agendamento prévio e não cumulativo.",
       },
     ],
     []
@@ -136,14 +134,12 @@ export default function ECNPJ() {
 
   return (
     <main className="min-h-screen bg-white text-slate-900">
-      {/* Background decor */}
       <div className="relative overflow-hidden">
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -top-24 -right-24 w-[420px] h-[420px] rounded-full bg-impulse-light/20 blur-3xl" />
           <div className="absolute -bottom-32 -left-24 w-[520px] h-[520px] rounded-full bg-impulse-dark/20 blur-3xl" />
         </div>
 
-        {/* Top bar */}
         <header className="relative border-b border-slate-100">
           <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
             <Link
@@ -166,11 +162,9 @@ export default function ECNPJ() {
           </div>
         </header>
 
-        {/* Hero */}
         <section className="relative">
           <div className="max-w-7xl mx-auto px-4 pt-14 pb-10 md:pt-20 md:pb-14">
             <div className="grid lg:grid-cols-12 gap-10 items-center">
-              {/* Copy */}
               <div className="lg:col-span-7">
                 <div className="inline-flex items-center gap-2 bg-slate-900 text-white px-3 py-1 rounded-full text-xs font-semibold">
                   <Sparkles className="w-4 h-4" />
@@ -191,13 +185,24 @@ export default function ECNPJ() {
                   correspondências e suporte.
                 </p>
 
-                {/* Social proof / bullets */}
                 <div className="mt-7 grid sm:grid-cols-2 gap-3 max-w-2xl">
                   {[
-                    { icon: <BadgeCheck className="w-5 h-5" />, text: "Endereço profissional no Duets (Cocó)" },
-                    { icon: <Mail className="w-5 h-5" />, text: "Recebimento e aviso de correspondências" },
-                    { icon: <ShieldCheck className="w-5 h-5" />, text: "Mais conformidade e menos dor de cabeça" },
-                    { icon: <Clock className="w-5 h-5" />, text: "Ativação rápida e processo simples" },
+                    {
+                      icon: <BadgeCheck className="w-5 h-5" />,
+                      text: "Endereço profissional no Duets (Cocó)",
+                    },
+                    {
+                      icon: <Mail className="w-5 h-5" />,
+                      text: "Recebimento e aviso de correspondências",
+                    },
+                    {
+                      icon: <ShieldCheck className="w-5 h-5" />,
+                      text: "Mais conformidade e menos dor de cabeça",
+                    },
+                    {
+                      icon: <Clock className="w-5 h-5" />,
+                      text: "Ativação rápida e processo simples",
+                    },
                   ].map((b, idx) => (
                     <div
                       key={idx}
@@ -209,7 +214,6 @@ export default function ECNPJ() {
                   ))}
                 </div>
 
-                {/* CTA row */}
                 <div className="mt-8 flex flex-col sm:flex-row gap-3">
                   <a
                     href={whatsappLink}
@@ -236,7 +240,6 @@ export default function ECNPJ() {
                 </div>
               </div>
 
-              {/* Pricing highlight card */}
               <div className="lg:col-span-5">
                 <div className="rounded-3xl border border-slate-100 bg-white shadow-xl overflow-hidden">
                   <div className="p-6 bg-gradient-to-r from-impulse-dark to-impulse-light text-white">
@@ -303,12 +306,9 @@ export default function ECNPJ() {
                       Fechar no WhatsApp
                       <ArrowRight className="w-4 h-4" />
                     </a>
-
-                    
                   </div>
                 </div>
 
-                {/* Plan toggle */}
                 <div className="mt-4 rounded-2xl border border-slate-100 bg-white p-3 shadow-sm">
                   <p className="text-xs font-semibold text-slate-600 px-2">
                     Selecione um plano para ver detalhes:
@@ -338,7 +338,6 @@ export default function ECNPJ() {
           </div>
         </section>
 
-        {/* Features */}
         <section className="py-14 border-t border-slate-100 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex items-end justify-between gap-6 flex-wrap">
@@ -377,7 +376,7 @@ export default function ECNPJ() {
           </div>
         </section>
 
-        {/* How it works */}
+        {/* ✅ AQUI era onde quebrava: divs fechadas corretamente */}
         <section className="py-14 bg-slate-50 border-y border-slate-100">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-12 gap-8 items-start">
@@ -388,6 +387,7 @@ export default function ECNPJ() {
                 <p className="mt-2 text-slate-700">
                   Processo simples, pensado para você começar rápido.
                 </p>
+              </div>
 
               <div className="lg:col-span-7">
                 <div className="grid md:grid-cols-3 gap-4">
@@ -425,14 +425,11 @@ export default function ECNPJ() {
                     </div>
                   ))}
                 </div>
-
-                
               </div>
             </div>
           </div>
         </section>
 
-        {/* Plans */}
         <section id="planos" className="py-14 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex items-end justify-between gap-6 flex-wrap">
@@ -481,7 +478,9 @@ export default function ECNPJ() {
                       <div
                         className={[
                           "text-xs font-semibold px-3 py-1 rounded-full inline-flex items-center gap-2",
-                          p.featured ? "bg-white/15" : "bg-white border border-slate-200",
+                          p.featured
+                            ? "bg-white/15"
+                            : "bg-white border border-slate-200",
                         ].join(" ")}
                       >
                         <Star className="w-4 h-4" />
@@ -491,11 +490,18 @@ export default function ECNPJ() {
 
                     <div className="mt-4 flex items-end gap-2">
                       <span className="text-3xl font-extrabold">{p.price}</span>
-                      <span className={p.featured ? "text-white/80" : "text-slate-600"}>
+                      <span
+                        className={p.featured ? "text-white/80" : "text-slate-600"}
+                      >
                         {p.period}
                       </span>
                     </div>
-                    <p className={["mt-2 text-sm", p.featured ? "text-white/85" : "text-slate-700"].join(" ")}>
+                    <p
+                      className={[
+                        "mt-2 text-sm",
+                        p.featured ? "text-white/85" : "text-slate-700",
+                      ].join(" ")}
+                    >
                       {p.description}
                     </p>
                   </div>
@@ -531,11 +537,6 @@ export default function ECNPJ() {
                     </a>
 
                     <p className="mt-3 text-xs text-slate-500">{p.footnote}</p>
-                    {p.id === "premium" && (
-                      <p className="mt-2 text-xs text-slate-500">
-                        
-                      </p>
-                    )}
                   </div>
                 </div>
               ))}
@@ -543,7 +544,6 @@ export default function ECNPJ() {
           </div>
         </section>
 
-        {/* FAQ */}
         <section className="py-14 bg-slate-50 border-t border-slate-100">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-12 gap-8 items-start">
@@ -554,7 +554,6 @@ export default function ECNPJ() {
                 <p className="mt-2 text-slate-700">
                   Respostas rápidas para você decidir sem insegurança.
                 </p>
-
               </div>
 
               <div className="lg:col-span-7">
@@ -575,7 +574,11 @@ export default function ECNPJ() {
                             )}
                           </div>
                           <div className="mt-1 text-slate-500">
-                            {open ? <X className="w-5 h-5" /> : <ArrowRight className="w-5 h-5" />}
+                            {open ? (
+                              <X className="w-5 h-5" />
+                            ) : (
+                              <ArrowRight className="w-5 h-5" />
+                            )}
                           </div>
                         </div>
                       </button>
@@ -587,7 +590,6 @@ export default function ECNPJ() {
           </div>
         </section>
 
-        {/* Bottom CTA */}
         <section className="py-14 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="rounded-3xl bg-gradient-to-r from-impulse-dark to-impulse-light text-white p-8 md:p-10 shadow-xl">
@@ -614,8 +616,6 @@ export default function ECNPJ() {
                   </a>
                 </div>
               </div>
-
-              
             </div>
           </div>
         </section>
