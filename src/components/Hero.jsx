@@ -21,8 +21,17 @@ const Hero = () => {
   )}`;
 
   return (
-    <section id="inicio" className="relative min-h-[92vh] md:min-h-screen flex items-center overflow-hidden">
-      <div className="absolute inset-0">
+    <section
+      id="inicio"
+      className={[
+        "relative isolate overflow-hidden",
+        "z-0",
+        "flex items-center",
+        "min-h-[100svh] md:min-h-screen",
+        "pt-[72px] sm:pt-[84px] md:pt-0",
+      ].join(" ")}
+    >
+      <div className="absolute inset-0 z-0">
         <img
           src={Espaco}
           alt="Impulse Coworking"
@@ -31,19 +40,19 @@ const Hero = () => {
         />
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/55 to-black/70" />
-      <div className="absolute inset-0 bg-gradient-to-r from-impulse-dark/70 via-impulse-dark/35 to-transparent" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-black/55 via-black/55 to-black/70" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-r from-impulse-dark/70 via-impulse-dark/35 to-transparent" />
 
-      <div className="relative w-full">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 md:py-16">
-          <div className="grid lg:grid-cols-12 gap-10 items-center">
+      <div className="relative z-10 w-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-10 sm:py-12 md:py-16">
+          <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
             <div className="lg:col-span-7">
               <div className="inline-flex items-center gap-2 rounded-full bg-white/10 text-white px-3 py-1 text-xs sm:text-sm font-semibold backdrop-blur border border-white/15">
                 <Sparkles className="w-4 h-4" />
                 Coworking • Salas • Auditórios • Domicílio Fiscal
               </div>
 
-              <h1 className="mt-5 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.08] tracking-tight">
+              <h1 className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.08] tracking-tight">
                 Estrutura{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-impulse-light to-white">
                   profissional
@@ -51,13 +60,13 @@ const Hero = () => {
                 para trabalhar, atender e crescer.
               </h1>
 
-              <p className="mt-5 text-base sm:text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed">
+              <p className="mt-4 text-base sm:text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed">
                 Impulse Coworking no <span className="font-extrabold">Duets (Cocó)</span>: recepção, internet rápida,
                 salas privativas, auditórios e estações de trabalho — além de{" "}
                 <span className="font-extrabold">domicílio fiscal</span> para dar credibilidade ao seu CNPJ.
               </p>
 
-              <div className="mt-7 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl">
+              <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl">
                 {[
                   { icon: <Wifi className="w-4 h-4" />, label: "Wi-Fi rápido" },
                   { icon: <Coffee className="w-4 h-4" />, label: "Café e água" },
@@ -74,7 +83,7 @@ const Hero = () => {
                 ))}
               </div>
 
-              <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:items-center">
+              <div className="mt-7 flex flex-col sm:flex-row gap-3 sm:items-center">
                 <a
                   href={waLink}
                   target="_blank"
@@ -187,7 +196,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="mt-10 sm:mt-12">
+          <div className="mt-8 sm:mt-10">
             <div className="h-px w-full bg-white/15" />
           </div>
         </div>
