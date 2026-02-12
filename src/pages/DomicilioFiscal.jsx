@@ -389,16 +389,6 @@ export default function ECNPJ() {
                   Processo simples, pensado para você começar rápido.
                 </p>
 
-                <div className="mt-6 rounded-3xl border border-slate-100 bg-white p-6 shadow-sm">
-                  <div className="flex items-start gap-3">
-                  
-                    <div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-
               <div className="lg:col-span-7">
                 <div className="grid md:grid-cols-3 gap-4">
                   {[
@@ -436,10 +426,7 @@ export default function ECNPJ() {
                   ))}
                 </div>
 
-                <div className="mt-4 rounded-3xl border border-slate-100 bg-white p-6 shadow-sm flex items-start gap-3">
-                  <HelpCircle className="w-5 h-5 text-slate-700 mt-0.5" />
-                  
-                </div>
+                
               </div>
             </div>
           </div>
@@ -568,21 +555,6 @@ export default function ECNPJ() {
                   Respostas rápidas para você decidir sem insegurança.
                 </p>
 
-                <div className="mt-6 rounded-3xl border border-slate-100 bg-white p-6 shadow-sm">
-                  <div className="flex items-start gap-3">
-                    <ShieldCheck className="w-5 h-5 text-impulse-dark mt-0.5" />
-                    <div>
-                      <p className="text-sm font-extrabold text-slate-900">
-                        Transparência
-                      </p>
-                      <p className="text-sm text-slate-700 mt-1">
-                        Se você quiser, eu também monto uma versão com provas
-                        sociais (depoimentos, números, logos) — isso aumenta MUITO
-                        a conversão.
-                      </p>
-                    </div>
-                  </div>
-                </div>
               </div>
 
               <div className="lg:col-span-7">
