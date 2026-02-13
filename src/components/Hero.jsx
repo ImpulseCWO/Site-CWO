@@ -93,7 +93,7 @@ const Hero = () => {
 
               <p className="mt-4 text-base sm:text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed">
                 Salas privativas, auditórios e estações de trabalho com recepção,
-                internet rápida e conforto — além de{" "}
+                internet rápida e conforto, além de{" "}
                 <span className="font-extrabold">domicílio fiscal</span> para
                 dar credibilidade ao seu CNPJ.
               </p>
